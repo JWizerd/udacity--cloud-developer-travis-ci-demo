@@ -1,4 +1,6 @@
 # Simple Node
+[![Build Status](https://travis-ci.com/JWizerd/udacity--cloud-developer-travis-ci-demo.svg?branch=master)](https://travis-ci.com/JWizerd/udacity--cloud-developer-travis-ci-demo)
+
 ## Overview
 This is a very simple, bare-bones NodeJS project created for you to use with Docker.
 
