@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: simple-node
+  labels:
+    app: simple-node-api
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: simple-node-api
+  template:
+    metadata:
+      labels:
+        app: simple-node-api
+    spec:
+      containers:
+      - name: simple-node-api
+        image: jwizerd/simple-node
+        ports:
+        - containerPort: 80
